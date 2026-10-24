@@ -1,6 +1,6 @@
 # Quantyra optical path spacers
 
-**v1.0.0** provides 25, 50 and 100 mm added stop-spacing modules for the [keyed optical fixture v1.1.0](https://github.com/Quantyra/optical-fixture-system). Editable self-contained OpenSCAD and exact approved STL meshes. Patent pending. Version DOI pending publication; none is reserved in this candidate.
+**v1.0.0** provides 25, 50 and 100 mm added stop-spacing modules for the [keyed optical fixture v1.1.0](https://github.com/Quantyra/optical-fixture-system). Editable self-contained OpenSCAD and exact approved STL meshes. Patent pending. Version DOI: [10.5281/zenodo.23609527](https://doi.org/10.5281/zenodo.23609527).
 
 ![Actual CAD: 50 + 100 mm chain with fixture and proxy hardware](previews/stack_50_100.png)
 
@@ -20,4 +20,4 @@ The original fixture lift-off hood is incompatible with an extended rig. Use and
 
 All included material uses [CERN-OHL-S-2.0](LICENSE). Source Location: https://github.com/Quantyra/optical-path-spacers. Open-source questions: info@quantyra.org. Separate commercial terms: info@qxcellerate.com. [Licensing guide](docs/licensing.md).
 
-Run `python scripts/validate_release.py`. [Manifest](manifest.json), [checksums](SHA256SUMS), [citation](CITATION.cff), [Zenodo metadata](.zenodo.json). Publication identifiers will be added after verification.
+Run `python scripts/validate_release.py`. [Manifest](manifest.json), [checksums](SHA256SUMS), [citation](CITATION.cff), [Zenodo metadata](.zenodo.json). Concept DOI: [10.5281/zenodo.23609526](https://doi.org/10.5281/zenodo.23609526). The [v1.0.0 release](https://github.com/Quantyra/optical-path-spacers/releases/tag/v1.0.0) archives [source commit `dfe02f7b79a98e9e71280a49abc08069819b8919`](https://github.com/Quantyra/optical-path-spacers/tree/dfe02f7b79a98e9e71280a49abc08069819b8919). All 22 tagged files and checksums in the [Zenodo archive](https://zenodo.org/records/23609527) were verified, and the DOI resolver returned HTTP 200. Subsequent citation/metadata corrections do not alter the original tagged archive.

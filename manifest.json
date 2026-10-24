@@ -10,8 +10,8 @@
     },
     {
       "path": ".zenodo.json",
-      "bytes": 673,
-      "sha256": "27c7a4b5bb78c2fbb40f79bebcf736e752fa9bd9f2f817efdddb9fad7fe8fffa"
+      "bytes": 1026,
+      "sha256": "420a24f80f8eb939ef41d02bf9caa301a4b4ceca4a443ad491161b6f87492897"
     },
     {
       "path": "ATTRIBUTION.md",
@@ -35,8 +35,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 672,
-      "sha256": "7827bb458d30b1edc6c1c7879755fd00250c20324a4cd750ce1e124977615370"
+      "bytes": 950,
+      "sha256": "10b349894081d2da76ce6b78b477038cfcc8a7d2a14f4c60df395f6d8c92d73d"
     },
     {
       "path": "docs/geometry-checks.json",
@@ -80,8 +80,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2530,
-      "sha256": "4045b8c1383fdc1a7977a8d4f78dadb4ebb3813896c3cab2dc9d7378e7a16a9e"
+      "bytes": 3054,
+      "sha256": "20d2bd996394a6d1a40df22fb5900c4312bcd4bee8329e109fd90ff49b96c0fe"
     },
     {
       "path": "scripts/validate_release.py",

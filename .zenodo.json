@@ -11,6 +11,17 @@
   "publication_date": "2026-10-23",
   "access_right": "open",
   "license": "cern-ohl-s-2.0",
-  "description": "25, 50 and 100 mm added stop-spacing modules for the Quantyra keyed optical fixture. CAD-compatible; physical spacer fit untested. Editable OpenSCAD, exact STL meshes and documentation under CERN-OHL-S-2.0. Patent pending. New version DOI pending publication. Source Location: https://github.com/Quantyra/optical-path-spacers.",
-  "related_identifiers": []
+  "description": "25, 50 and 100 mm added stop-spacing modules for the Quantyra keyed optical fixture. CAD-compatible; physical spacer fit untested. Editable OpenSCAD, exact STL meshes and documentation under CERN-OHL-S-2.0. Patent pending. v1.0.0 archived as DOI 10.5281/zenodo.23609527; subsequent metadata corrections preserve the original tagged archive. Source Location: https://github.com/Quantyra/optical-path-spacers.",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23609526",
+      "relation": "isVersionOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/Quantyra/optical-path-spacers/tree/v1.0.0",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
 }

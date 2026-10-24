@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the version and exact public files used. New version DOI pending publication."
+message: "Please cite the version and exact public files used. For v1.0.0 cite DOI 10.5281/zenodo.23609527."
 title: "Quantyra optical path spacers"
 type: dataset
 version: "v1.0.0"
@@ -12,3 +12,11 @@ repository-code: "https://github.com/Quantyra/optical-path-spacers"
 url: "https://github.com/Quantyra/optical-path-spacers"
 license: CERN-OHL-S-2.0
 abstract: "25, 50 and 100 mm added stop-spacing modules for the Quantyra keyed optical fixture. CAD-compatible; physical spacer fit untested. Editable OpenSCAD and exact approved STL meshes. Patent pending."
+
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23609527"
+    description: "Version DOI for the exact v1.0.0 archive; preferred citation for this release."
+  - type: doi
+    value: "10.5281/zenodo.23609526"
+    description: "Concept DOI for all spacer versions."
