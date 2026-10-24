@@ -1,0 +1,16 @@
+{
+  "title": "Quantyra optical path spacers",
+  "upload_type": "dataset",
+  "version": "v1.0.0",
+  "creators": [
+    {
+      "name": "Fredriksen, Daniel Eric",
+      "affiliation": "Quantyra"
+    }
+  ],
+  "publication_date": "2026-10-23",
+  "access_right": "open",
+  "license": "cern-ohl-s-2.0",
+  "description": "25, 50 and 100 mm added stop-spacing modules for the Quantyra keyed optical fixture. CAD-compatible; physical spacer fit untested. Editable OpenSCAD, exact STL meshes and documentation under CERN-OHL-S-2.0. Patent pending. New version DOI pending publication. Source Location: https://github.com/Quantyra/optical-path-spacers.",
+  "related_identifiers": []
+}

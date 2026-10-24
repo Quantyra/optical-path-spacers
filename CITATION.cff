@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the version and exact public files used. New version DOI pending publication."
+title: "Quantyra optical path spacers"
+type: dataset
+version: "v1.0.0"
+date-released: 2026-10-23
+authors:
+  - family-names: "Fredriksen"
+    given-names: "Daniel Eric"
+    affiliation: "Quantyra"
+repository-code: "https://github.com/Quantyra/optical-path-spacers"
+url: "https://github.com/Quantyra/optical-path-spacers"
+license: CERN-OHL-S-2.0
+abstract: "25, 50 and 100 mm added stop-spacing modules for the Quantyra keyed optical fixture. CAD-compatible; physical spacer fit untested. Editable OpenSCAD and exact approved STL meshes. Patent pending."

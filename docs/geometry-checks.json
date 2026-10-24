@@ -1,0 +1,280 @@
+{
+  "status": "PASS_GEOMETRY_ONLY",
+  "method": "OpenSCAD export; watertight oriented meshes; Manifold bidirectional solid difference; actual convex tongue translation sweeps. Tolerance 0.00001 mm3 for solid equality and 0.0001 mm3 for contact/intersection arithmetic.",
+  "limits": "Nominal CAD only: no physical spacer fit, slicing, firmware/machine qualification, measured precision, optical performance or full production jig interference validation. Proxy hardware is illustrative. Withdrawal sweeps cover flat straight motion, not tilted/forced parts.",
+  "dimensions_mm": {
+    "front_apron": 5,
+    "stand_pocket_ceiling": 2,
+    "tongue_height": 1.4,
+    "stand_roof": 3,
+    "stand_roof_gap": 0.6,
+    "per_flank_horizontal_clearance": 0.25,
+    "ideal_centered_flank_limited_lift": 0.35,
+    "optical_axis_height": 20
+  },
+  "stand_roof_missing_volume_mm3": 0.0,
+  "approved_mesh_exports": [
+    {
+      "mesh": "stl/source_stand_female.stl",
+      "sha256": "3fb30b959689880f5e5a2539ac5d6ca1e52c1d8f5bc1f5f725c9326d79a05fae",
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        [
+          -17.0,
+          -14.0,
+          0.0
+        ],
+        [
+          17.0,
+          14.0,
+          25.0
+        ]
+      ],
+      "volume_mm3": 6030.05867753264,
+      "regenerated_symmetric_difference_mm3": 0.0
+    },
+    {
+      "mesh": "stl/detector_cradle_two_male_ports.stl",
+      "sha256": "945e964d289455c3f88225678260cbf0bba0d027f7fa1b0c983ecd53cb534010",
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        [
+          -25.0,
+          -26.0,
+          0.0
+        ],
+        [
+          25.0,
+          13.0,
+          14.4
+        ]
+      ],
+      "volume_mm3": 16594.5751921534,
+      "regenerated_symmetric_difference_mm3": 0.0
+    },
+    {
+      "mesh": "stl/extension_25mm.stl",
+      "sha256": "5097efddb43cfac80ed30b60dea08c56d2ea8e0bb56f73211b6f259ae3d600de",
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        [
+          -17.0,
+          -32.0,
+          0.0
+        ],
+        [
+          17.0,
+          0.0,
+          4.4
+        ]
+      ],
+      "volume_mm3": 3329.749441117683,
+      "regenerated_symmetric_difference_mm3": 0.0
+    },
+    {
+      "mesh": "stl/extension_50mm.stl",
+      "sha256": "92679f7447c926086ec2257905182ab84d9d573168701f721b12defe5ff93f54",
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        [
+          -17.0,
+          -57.0,
+          0.0
+        ],
+        [
+          17.0,
+          0.0,
+          4.4
+        ]
+      ],
+      "volume_mm3": 6729.861210798484,
+      "regenerated_symmetric_difference_mm3": 0.0
+    },
+    {
+      "mesh": "stl/extension_100mm.stl",
+      "sha256": "71350f0afe4e387af27f029a9798abb2af2292cbc8ad5da91cdbc2bccedd49fe",
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        [
+          -17.0,
+          -107.0,
+          0.0
+        ],
+        [
+          17.0,
+          0.0,
+          4.4
+        ]
+      ],
+      "volume_mm3": 13530.951735092707,
+      "regenerated_symmetric_difference_mm3": 0.0
+    }
+  ],
+  "interfaces": [
+    {
+      "interface": "cradle to stand at X=-5",
+      "docked_overlap_mm3": 2.842170943040401e-14,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "cradle to stand at X=5",
+      "docked_overlap_mm3": 7.771561172376096e-16,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "cradle to 25mm spacer",
+      "docked_overlap_mm3": 2.1094237467877974e-15,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "25mm spacer to revised stand at X=-5",
+      "docked_overlap_mm3": 0.0,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "25mm spacer to revised stand at X=5",
+      "docked_overlap_mm3": 7.105427357601002e-15,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "25mm spacer to 25mm spacer",
+      "docked_overlap_mm3": 4.085620730620576e-14,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "25mm spacer to 50mm spacer",
+      "docked_overlap_mm3": 4.085620730620576e-14,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "25mm spacer to 100mm spacer",
+      "docked_overlap_mm3": 4.085620730620576e-14,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "cradle to 50mm spacer",
+      "docked_overlap_mm3": 2.1094237467877974e-15,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "50mm spacer to revised stand at X=-5",
+      "docked_overlap_mm3": 0.0,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "50mm spacer to revised stand at X=5",
+      "docked_overlap_mm3": 1.4210854715202004e-14,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "50mm spacer to 25mm spacer",
+      "docked_overlap_mm3": 8.171241461241152e-14,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "50mm spacer to 50mm spacer",
+      "docked_overlap_mm3": 8.171241461241152e-14,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "50mm spacer to 100mm spacer",
+      "docked_overlap_mm3": 8.171241461241152e-14,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "cradle to 100mm spacer",
+      "docked_overlap_mm3": 2.1094237467877974e-15,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "100mm spacer to revised stand at X=-5",
+      "docked_overlap_mm3": 0.0,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "100mm spacer to revised stand at X=5",
+      "docked_overlap_mm3": 2.842170943040401e-14,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "100mm spacer to 25mm spacer",
+      "docked_overlap_mm3": 1.6342482922482304e-13,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "100mm spacer to 50mm spacer",
+      "docked_overlap_mm3": 1.6342482922482304e-13,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "interface": "100mm spacer to 100mm spacer",
+      "docked_overlap_mm3": 1.6342482922482304e-13,
+      "two_tongue_7_2mm_straight_withdrawal_sweep_overlap_mm3": [
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

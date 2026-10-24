@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.scad text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.gcode -text
+*.stl -text
+*.png binary
+LICENSE -text

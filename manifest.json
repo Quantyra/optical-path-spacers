@@ -1,0 +1,107 @@
+{
+  "version": "v1.0.0",
+  "source_location": "https://github.com/Quantyra/optical-path-spacers",
+  "scope": "All public package files except this manifest and SHA256SUMS; SHA256SUMS also covers this manifest. Local Git control files are excluded.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 125,
+      "sha256": "6fbef98272e513fa211280255de746e3082af8656fb4d37177f70d61f60dac4f"
+    },
+    {
+      "path": ".zenodo.json",
+      "bytes": 673,
+      "sha256": "27c7a4b5bb78c2fbb40f79bebcf736e752fa9bd9f2f817efdddb9fad7fe8fffa"
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "bytes": 1341,
+      "sha256": "3095984aaa7b726bc86af529040d0f985756665bccfba8bc8cb6f7b055345a96"
+    },
+    {
+      "path": "cad/fixed_ir_source_34mm.scad",
+      "bytes": 7157,
+      "sha256": "1723c448b8f88492db62fc8c6d5088421eaae3b7b2d8d8b9609cc676d61139ce"
+    },
+    {
+      "path": "cad/keyed_extensions.scad",
+      "bytes": 3669,
+      "sha256": "3d7ab4e482b7d0bd4a85a831c1bbbbad02967b3b1e8cd42375a9027a62cea8fa"
+    },
+    {
+      "path": "cad/keyed_fixture.scad",
+      "bytes": 5122,
+      "sha256": "f5374d2fe07eef00fcd4a845ae37289862ea57e691c64d5b1fca7d9f6b4d4064"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 672,
+      "sha256": "7827bb458d30b1edc6c1c7879755fd00250c20324a4cd750ce1e124977615370"
+    },
+    {
+      "path": "docs/geometry-checks.json",
+      "bytes": 7443,
+      "sha256": "df12582d799693a317a3fd5941bc422ebd1c8f14c79fbf9b559ddc944033425a"
+    },
+    {
+      "path": "docs/licensing.md",
+      "bytes": 1139,
+      "sha256": "ce59078922b9df3c34bcc371ee286632fe4ffda567e199da054fabfc04d00d29"
+    },
+    {
+      "path": "docs/print-and-assembly.md",
+      "bytes": 4979,
+      "sha256": "a549308e6e0c0cf78329dabb337e4f117c2cb7df85065972a31d4be87edad00e"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 13708,
+      "sha256": "1378410f52f977bc20cfa85054f6d2075f6b222de18492d14f63f9bd544e9f95"
+    },
+    {
+      "path": "previews/assembly_100_right.png",
+      "bytes": 32749,
+      "sha256": "0c275da52c33a19807c24d96d340e68782139a5b6b9fb6b40f080016a901ac95"
+    },
+    {
+      "path": "previews/spacer_family.png",
+      "bytes": 26560,
+      "sha256": "c5957b281daf985efaf076cfe4a4e6c9a48ea13b4b23e0a55905a05a72d21ab3"
+    },
+    {
+      "path": "previews/stack_50_100.png",
+      "bytes": 31245,
+      "sha256": "9f263787467d82ac55127873cbec40c1df725736da84d45d7c148c011a521baa"
+    },
+    {
+      "path": "previews/underside_25.png",
+      "bytes": 23259,
+      "sha256": "0c5a9e42266ccfb2fc06d4b1e0ddb7cb130705d25a6b72d983d5c9f74a46d6dd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2530,
+      "sha256": "4045b8c1383fdc1a7977a8d4f78dadb4ebb3813896c3cab2dc9d7378e7a16a9e"
+    },
+    {
+      "path": "scripts/validate_release.py",
+      "bytes": 6417,
+      "sha256": "045c481db34d33216d727919b7d21d48990504a2050f86fa94394fe02024d55e"
+    },
+    {
+      "path": "stl/extension_100mm.stl",
+      "bytes": 407040,
+      "sha256": "71350f0afe4e387af27f029a9798abb2af2292cbc8ad5da91cdbc2bccedd49fe"
+    },
+    {
+      "path": "stl/extension_25mm.stl",
+      "bytes": 370374,
+      "sha256": "5097efddb43cfac80ed30b60dea08c56d2ea8e0bb56f73211b6f259ae3d600de"
+    },
+    {
+      "path": "stl/extension_50mm.stl",
+      "bytes": 379681,
+      "sha256": "92679f7447c926086ec2257905182ab84d9d573168701f721b12defe5ff93f54"
+    }
+  ]
+}
